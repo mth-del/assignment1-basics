@@ -161,3 +161,9 @@ cython_debug/
 
 .ruff_cache/
 *.zip
+
+data/
+test_tiny_story_v1_*/
+ts_v1_*.log
+*.pkl
+*.kl
