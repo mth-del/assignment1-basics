@@ -33,6 +33,7 @@ def main():
         choices=[
             'bpe_v1_time',
             'bpe_v2_time',
+            'bpe_v3_time',
         ],
     )
 
@@ -68,6 +69,8 @@ def main():
             from cs336_basics.bpe_v1_time import BPE_Trainer
         case "bpe_v2_time":
             from cs336_basics.bpe_v2_time import BPE_Trainer
+        case "bpe_v3_time":
+            from cs336_basics.bpe_v3_time import BPE_Trainer
     
     bpe_trainer = BPE_Trainer()
 
